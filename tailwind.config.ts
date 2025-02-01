@@ -238,6 +238,7 @@ const config: Config = {
       },
       backgroundImage: {
         video: "url('../images/video/video.png')",
+         'custom-hexagon': "url('https://img.freepik.com/free-vector/white-background-with-blue-tech-hexagon_1017-19366.jpg?ga=GA1.1.680121161.1738433577&semt=ais_hybrid')",
       },
       content: {
         "icon-copy": 'url("../images/icon/icon-copy-alt.svg")',
