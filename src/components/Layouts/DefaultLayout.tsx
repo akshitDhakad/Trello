@@ -27,7 +27,9 @@ export default function DefaultLayout({
 
           {/* <!-- ===== Main Content Start ===== --> */}
           <main>
-            <div className="">{children}</div>
+            <div className={`mt-1 ${sidebarOpen ? "" : "lg:ml-4"} `}>
+              {children}
+            </div>
           </main>
           {/* <!-- ===== Main Content End ===== --> */}
         </div>

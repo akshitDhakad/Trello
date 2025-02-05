@@ -13,21 +13,17 @@ export const metadata: Metadata = {
 const Profile = () => {
   return (
     <DefaultLayout>
-      <div className="mx-auto max-w-242.5">
+      <div className="mx-auto ">
         <Breadcrumb pageName="Profile" />
-
         <div className="overflow-hidden rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark">
-          <div className="relative z-20 h-35 md:h-65">
+          <div className="relative z-20 h-35 md:h-72">
             <Image
               src={"/images/cover/cover-01.png"}
               alt="profile cover"
               className="h-full w-full rounded-tl-sm rounded-tr-sm object-cover object-center"
-              width={970}
-              height={260}
-              style={{
-                width: "auto",
-                height: "auto",
-              }}
+              layout="responsive"
+              width={1000}
+              height={100}
             />
             <div className="absolute bottom-1 right-1 z-10 xsm:bottom-4 xsm:right-4">
               <label

@@ -1,6 +1,7 @@
 import ChatCard from "@/components/Chat/ChatCard";
 import { Metadata } from "next";
 import DefaultLayout from "@/components/Layouts/DefaultLayout";
+import ChatMessageContainer from "@/components/Chat/ChatMessageContainer";
 
 export const metadata: Metadata = {
   title: "Next.js Calender | TailAdmin - Next.js Dashboard Template",
@@ -11,7 +12,10 @@ export const metadata: Metadata = {
 const ChatPage = () => {
   return (
     <DefaultLayout>
-      <ChatCard />
+      <div className="grid grid-cols-12 gap-1">
+        <ChatCard />
+        <ChatMessageContainer />
+      </div>
     </DefaultLayout>
   );
 };
