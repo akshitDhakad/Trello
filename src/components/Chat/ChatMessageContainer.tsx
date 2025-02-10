@@ -114,7 +114,7 @@ const ChatMessageContainer = () => {
           </div>
         ))}
       </div>
-      <div className="absolute transform -translate-y-16 -bottom-4 z-10 w-full bg-white">
+      <div className="absolute transform -translate-y-16 -bottom-5 z-10 w-full bg-white">
         <TextEditor />
       </div>
     </div>
