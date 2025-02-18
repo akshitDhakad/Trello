@@ -19,7 +19,7 @@ export default function DefaultLayout({
 
         {/* <!-- ===== Content Area Start ===== --> */}
         <div
-          className={`relative flex flex-1 flex-col ${sidebarOpen ? "lg:ml-64" : "lg:ml-28"} `}
+          className={`relative flex flex-1 flex-col ${sidebarOpen ? "lg:ml-[10.625rem]" : "lg:ml-18"} `}
         >
           {/* <!-- ===== Header Start ===== --> */}
           <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
